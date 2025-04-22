@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45BA2272DB7EEB3000B26DC /* AvoJump Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F45BA2262DB7EEB3000B26DC /* AvoJump Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F45BA22C2DB7EEB3000B26DC /* AvoJumpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA22B2DB7EEB3000B26DC /* AvoJumpApp.swift */; };
+		F45BA22E2DB7EEB3000B26DC /* AvoJumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA22D2DB7EEB3000B26DC /* AvoJumpView.swift */; };
+		F45BA2302DB7EEB4000B26DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45BA22F2DB7EEB4000B26DC /* Assets.xcassets */; };
+		F45BA2332DB7EEB4000B26DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45BA2322DB7EEB4000B26DC /* Preview Assets.xcassets */; };
+		F45BA23D2DB7EEB5000B26DC /* AvoJump_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA23C2DB7EEB5000B26DC /* AvoJump_Watch_AppTests.swift */; };
+		F45BA2472DB7EEB5000B26DC /* AvoJump_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA2462DB7EEB5000B26DC /* AvoJump_Watch_AppUITests.swift */; };
+		F45BA2492DB7EEB5000B26DC /* AvoJump_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA2482DB7EEB5000B26DC /* AvoJump_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45BA2282DB7EEB3000B26DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45BA21A2DB7EEB3000B26DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45BA2252DB7EEB3000B26DC;
+			remoteInfo = "AvoJump Watch App";
+		};
+		F45BA2392DB7EEB5000B26DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45BA21A2DB7EEB3000B26DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45BA2252DB7EEB3000B26DC;
+			remoteInfo = "AvoJump Watch App";
+		};
+		F45BA2432DB7EEB5000B26DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45BA21A2DB7EEB3000B26DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45BA2252DB7EEB3000B26DC;
+			remoteInfo = "AvoJump Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F45BA24F2DB7EEB5000B26DC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F45BA2272DB7EEB3000B26DC /* AvoJump Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F45BA2202DB7EEB3000B26DC /* AvoJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvoJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45BA2262DB7EEB3000B26DC /* AvoJump Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvoJump Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45BA22B2DB7EEB3000B26DC /* AvoJumpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoJumpApp.swift; sourceTree = "<group>"; };
+		F45BA22D2DB7EEB3000B26DC /* AvoJumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoJumpView.swift; sourceTree = "<group>"; };
+		F45BA22F2DB7EEB4000B26DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45BA2322DB7EEB4000B26DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F45BA2382DB7EEB5000B26DC /* AvoJump Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AvoJump Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45BA23C2DB7EEB5000B26DC /* AvoJump_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoJump_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F45BA2422DB7EEB5000B26DC /* AvoJump Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AvoJump Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45BA2462DB7EEB5000B26DC /* AvoJump_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoJump_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F45BA2482DB7EEB5000B26DC /* AvoJump_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoJump_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45BA2232DB7EEB3000B26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA2352DB7EEB5000B26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA23F2DB7EEB5000B26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45BA2192DB7EEB3000B26DC = {
+			isa = PBXGroup;
+			children = (
+				F45BA22A2DB7EEB3000B26DC /* AvoJump Watch App */,
+				F45BA23B2DB7EEB5000B26DC /* AvoJump Watch AppTests */,
+				F45BA2452DB7EEB5000B26DC /* AvoJump Watch AppUITests */,
+				F45BA2212DB7EEB3000B26DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45BA2212DB7EEB3000B26DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45BA2202DB7EEB3000B26DC /* AvoJump.app */,
+				F45BA2262DB7EEB3000B26DC /* AvoJump Watch App.app */,
+				F45BA2382DB7EEB5000B26DC /* AvoJump Watch AppTests.xctest */,
+				F45BA2422DB7EEB5000B26DC /* AvoJump Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45BA22A2DB7EEB3000B26DC /* AvoJump Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F45BA22B2DB7EEB3000B26DC /* AvoJumpApp.swift */,
+				F45BA22D2DB7EEB3000B26DC /* AvoJumpView.swift */,
+				F45BA22F2DB7EEB4000B26DC /* Assets.xcassets */,
+				F45BA2312DB7EEB4000B26DC /* Preview Content */,
+			);
+			path = "AvoJump Watch App";
+			sourceTree = "<group>";
+		};
+		F45BA2312DB7EEB4000B26DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F45BA2322DB7EEB4000B26DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F45BA23B2DB7EEB5000B26DC /* AvoJump Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45BA23C2DB7EEB5000B26DC /* AvoJump_Watch_AppTests.swift */,
+			);
+			path = "AvoJump Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F45BA2452DB7EEB5000B26DC /* AvoJump Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45BA2462DB7EEB5000B26DC /* AvoJump_Watch_AppUITests.swift */,
+				F45BA2482DB7EEB5000B26DC /* AvoJump_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "AvoJump Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45BA21F2DB7EEB3000B26DC /* AvoJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45BA2502DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump" */;
+			buildPhases = (
+				F45BA21E2DB7EEB3000B26DC /* Resources */,
+				F45BA24F2DB7EEB5000B26DC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45BA2292DB7EEB3000B26DC /* PBXTargetDependency */,
+			);
+			name = AvoJump;
+			productName = AvoJump;
+			productReference = F45BA2202DB7EEB3000B26DC /* AvoJump.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F45BA2252DB7EEB3000B26DC /* AvoJump Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45BA24C2DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump Watch App" */;
+			buildPhases = (
+				F45BA2222DB7EEB3000B26DC /* Sources */,
+				F45BA2232DB7EEB3000B26DC /* Frameworks */,
+				F45BA2242DB7EEB3000B26DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AvoJump Watch App";
+			productName = "AvoJump Watch App";
+			productReference = F45BA2262DB7EEB3000B26DC /* AvoJump Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45BA2372DB7EEB5000B26DC /* AvoJump Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45BA2532DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump Watch AppTests" */;
+			buildPhases = (
+				F45BA2342DB7EEB5000B26DC /* Sources */,
+				F45BA2352DB7EEB5000B26DC /* Frameworks */,
+				F45BA2362DB7EEB5000B26DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45BA23A2DB7EEB5000B26DC /* PBXTargetDependency */,
+			);
+			name = "AvoJump Watch AppTests";
+			productName = "AvoJump Watch AppTests";
+			productReference = F45BA2382DB7EEB5000B26DC /* AvoJump Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45BA2412DB7EEB5000B26DC /* AvoJump Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45BA2562DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump Watch AppUITests" */;
+			buildPhases = (
+				F45BA23E2DB7EEB5000B26DC /* Sources */,
+				F45BA23F2DB7EEB5000B26DC /* Frameworks */,
+				F45BA2402DB7EEB5000B26DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45BA2442DB7EEB5000B26DC /* PBXTargetDependency */,
+			);
+			name = "AvoJump Watch AppUITests";
+			productName = "AvoJump Watch AppUITests";
+			productReference = F45BA2422DB7EEB5000B26DC /* AvoJump Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45BA21A2DB7EEB3000B26DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F45BA21F2DB7EEB3000B26DC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F45BA2252DB7EEB3000B26DC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F45BA2372DB7EEB5000B26DC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F45BA2252DB7EEB3000B26DC;
+					};
+					F45BA2412DB7EEB5000B26DC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F45BA2252DB7EEB3000B26DC;
+					};
+				};
+			};
+			buildConfigurationList = F45BA21D2DB7EEB3000B26DC /* Build configuration list for PBXProject "AvoJump" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45BA2192DB7EEB3000B26DC;
+			productRefGroup = F45BA2212DB7EEB3000B26DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45BA21F2DB7EEB3000B26DC /* AvoJump */,
+				F45BA2252DB7EEB3000B26DC /* AvoJump Watch App */,
+				F45BA2372DB7EEB5000B26DC /* AvoJump Watch AppTests */,
+				F45BA2412DB7EEB5000B26DC /* AvoJump Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45BA21E2DB7EEB3000B26DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA2242DB7EEB3000B26DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45BA2332DB7EEB4000B26DC /* Preview Assets.xcassets in Resources */,
+				F45BA2302DB7EEB4000B26DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA2362DB7EEB5000B26DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA2402DB7EEB5000B26DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45BA2222DB7EEB3000B26DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45BA22E2DB7EEB3000B26DC /* AvoJumpView.swift in Sources */,
+				F45BA22C2DB7EEB3000B26DC /* AvoJumpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA2342DB7EEB5000B26DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45BA23D2DB7EEB5000B26DC /* AvoJump_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45BA23E2DB7EEB5000B26DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45BA2472DB7EEB5000B26DC /* AvoJump_Watch_AppUITests.swift in Sources */,
+				F45BA2492DB7EEB5000B26DC /* AvoJump_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45BA2292DB7EEB3000B26DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45BA2252DB7EEB3000B26DC /* AvoJump Watch App */;
+			targetProxy = F45BA2282DB7EEB3000B26DC /* PBXContainerItemProxy */;
+		};
+		F45BA23A2DB7EEB5000B26DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45BA2252DB7EEB3000B26DC /* AvoJump Watch App */;
+			targetProxy = F45BA2392DB7EEB5000B26DC /* PBXContainerItemProxy */;
+		};
+		F45BA2442DB7EEB5000B26DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45BA2252DB7EEB3000B26DC /* AvoJump Watch App */;
+			targetProxy = F45BA2432DB7EEB5000B26DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F45BA24A2DB7EEB5000B26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45BA24B2DB7EEB5000B26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F45BA24D2DB7EEB5000B26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvoJump Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AvoJump;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikoyejin.AvoJump.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		F45BA24E2DB7EEB5000B26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvoJump Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AvoJump;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikoyejin.AvoJump.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		F45BA2512DB7EEB5000B26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				INFOPLIST_KEY_CFBundleDisplayName = AvoJump;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikoyejin.AvoJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F45BA2522DB7EEB5000B26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				INFOPLIST_KEY_CFBundleDisplayName = AvoJump;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikoyejin.AvoJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45BA2542DB7EEB5000B26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikoyejin.AvoJump-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvoJump Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AvoJump Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		F45BA2552DB7EEB5000B26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikoyejin.AvoJump-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvoJump Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AvoJump Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		F45BA2572DB7EEB5000B26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikoyejin.AvoJump-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AvoJump Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		F45BA2582DB7EEB5000B26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SS863TN6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikoyejin.AvoJump-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AvoJump Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45BA21D2DB7EEB3000B26DC /* Build configuration list for PBXProject "AvoJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45BA24A2DB7EEB5000B26DC /* Debug */,
+				F45BA24B2DB7EEB5000B26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45BA24C2DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45BA24D2DB7EEB5000B26DC /* Debug */,
+				F45BA24E2DB7EEB5000B26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45BA2502DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45BA2512DB7EEB5000B26DC /* Debug */,
+				F45BA2522DB7EEB5000B26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45BA2532DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45BA2542DB7EEB5000B26DC /* Debug */,
+				F45BA2552DB7EEB5000B26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45BA2562DB7EEB5000B26DC /* Build configuration list for PBXNativeTarget "AvoJump Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45BA2572DB7EEB5000B26DC /* Debug */,
+				F45BA2582DB7EEB5000B26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45BA21A2DB7EEB3000B26DC /* Project object */;
+}
