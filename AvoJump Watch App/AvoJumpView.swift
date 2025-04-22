@@ -244,7 +244,7 @@ struct AvoJumpView: View {
     }
 }
 
-// 프리뷰 추가
+// 프리뷰
 struct AvoJumpView_Previews: PreviewProvider {
     static var previews: some View {
         AvoJumpView()
