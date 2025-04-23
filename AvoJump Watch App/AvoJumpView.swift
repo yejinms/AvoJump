@@ -89,7 +89,11 @@ class GameState: ObservableObject {
         
         // 장애물 생성
         if Int.random(in: 0...100) < 2 {
-            let newObstacle = Obstacle(x: 150)
+            // 랜덤하게 장애물 타입 선택
+            let obstacleTypes = ["cado", "tomato", "lemon"]
+            let randomType = obstacleTypes.randomElement() ?? "cado"
+            
+            let newObstacle = Obstacle(x: 150, type: randomType)
             obstacles.append(newObstacle)
         }
         
@@ -119,6 +123,7 @@ struct Obstacle: Identifiable {
     let id = UUID()
     var x: CGFloat
     let height: CGFloat = 20
+    let type: String // 장애물 타입 (cado, tomato, lemon)
 }
 
 // 아보카도 뷰 - 이미지 사용
@@ -129,7 +134,7 @@ struct avoView: View {
         Image("avo")
             .resizable()
             .scaledToFit()
-            .frame(width: 35)
+            .frame(width: 45)
             .offset(y: avoY)
     }
 }
@@ -139,10 +144,10 @@ struct ObstacleView: View {
     var obstacle: Obstacle
     
     var body: some View {
-        Image("bacon")
+        Image(obstacle.type)
             .resizable()
             .scaledToFit()
-            .frame(width: 20, height: obstacle.height)
+            .frame(width: 25, height: obstacle.height)
             .offset(x: obstacle.x, y: 0)
     }
 }
