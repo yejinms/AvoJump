@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2341D26A2DD9F2ED00D0A7A3 /* AvoJumpIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341D2662DD9F21100D0A7A3 /* AvoJumpIOSApp.swift */; };
 		2341D26B2DD9F2FA00D0A7A3 /* AvoJumpIOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341D2672DD9F22500D0A7A3 /* AvoJumpIOSView.swift */; };
 		2341D26C2DD9F2FE00D0A7A3 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341D2692DD9F2B000D0A7A3 /* GameLogic.swift */; };
+		2341D26D2DD9FA2800D0A7A3 /* AvoJumpIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341D2662DD9F21100D0A7A3 /* AvoJumpIOSApp.swift */; };
 		F45BA2272DB7EEB3000B26DC /* AvoJump Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F45BA2262DB7EEB3000B26DC /* AvoJump Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F45BA22C2DB7EEB3000B26DC /* AvoJumpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA22B2DB7EEB3000B26DC /* AvoJumpApp.swift */; };
 		F45BA22E2DB7EEB3000B26DC /* AvoJumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BA22D2DB7EEB3000B26DC /* AvoJumpView.swift */; };
@@ -336,9 +336,9 @@
 			files = (
 				2341D26C2DD9F2FE00D0A7A3 /* GameLogic.swift in Sources */,
 				2341D26B2DD9F2FA00D0A7A3 /* AvoJumpIOSView.swift in Sources */,
-				2341D26A2DD9F2ED00D0A7A3 /* AvoJumpIOSApp.swift in Sources */,
 				F45BA22E2DB7EEB3000B26DC /* AvoJumpView.swift in Sources */,
 				F45BA22C2DB7EEB3000B26DC /* AvoJumpApp.swift in Sources */,
+				2341D26D2DD9FA2800D0A7A3 /* AvoJumpIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

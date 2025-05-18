@@ -5,7 +5,6 @@
 //  Created by Niko on 5/18/25.
 //
 
-
 import SwiftUI
 
 // iOS용 아보카도 뷰
